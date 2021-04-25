@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity"
+    >
+
+    <ImageView
+        android:id="@+id/MainBack"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-4dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/backgroundmain_menu" />
+
+    <LinearLayout
+        android:id="@+id/startLayout"
+        android:layout_width="230dp"
+        android:layout_height="96dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_start"
+            android:layout_width="220dp"
+            android:layout_height="94dp"
+            android:layout_marginBottom="100dp"
+            android:background="@drawable/button_stroke_black70_press_white"
+            android:padding="10dp"
+            android:text="@string/play"
+            android:textColor="@color/white"
+            android:textSize="35dp"
+            android:textAllCaps="false"
+            app:backgroundTint="#E6050505" />
+    </LinearLayout>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="119dp"-->
+<!--        android:layout_height="61dp"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginBottom="25dp"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button_exit"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="@string/exit"-->
+<!--            android:background="@drawable/button_stroke_black70_press_white"-->
+<!--            android:padding="10dp"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="15dp"-->
+<!--            app:backgroundTint="#E6050505"/>-->
+<!--    </LinearLayout>-->
+
+</RelativeLayout>

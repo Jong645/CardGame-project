@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CardGame</string>
+    <string name="play">Play</string>
+    <string name="exit">Exit</string>
+    <string name="back">Back</string>
+    <string name="menunumber">Choose the number of players</string>
+    <string name="menucolod">Choose a deck or make your own</string>
+</resources>
