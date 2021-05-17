@@ -35,14 +35,14 @@ public class GameSelectMenu extends AppCompatActivity {
             }
         });
         //команда для кнопки конец
-        Button button_two = (Button) findViewById(R.id.two);
+        Button button_two = (Button) findViewById(R.id.game);
         button_two.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //команда для кнопки начало
 
                 try {
-                    Intent intent = new Intent(GameSelectMenu.this, FirstCardMenu.class);
+                    Intent intent = new Intent(GameSelectMenu.this,Game.class);
                     startActivity(intent);
                     finish();
                 } catch (Exception e){
